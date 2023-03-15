@@ -2,12 +2,39 @@
 def add(x, y):
     return x + y
 
+def sub(x, y):
+    return x - y
+
+def div(x, y):
+    return x / y
+
+def mult(x, y):
+    return x * y
+
+def exp(x, y):
+    return x ** y
+
+def neg(x):
+    return (-1) * x
+
+def sqrt(x):
+    return x ** (0.5)
+
+
+
+
+
+
+
+
 # TODO: Add definitions of sub(), div(), mult(), exp(), as well as neg() and sqrt().
 #       neg() should return the negation of the given number, and sqrt() should
 #       return the square root of the given number. 
 
+
 def neg(x):
     ... # fill here
+
 
 def sqrt(x):
     ... # fill here
