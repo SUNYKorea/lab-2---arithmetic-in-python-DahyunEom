@@ -14,18 +14,6 @@ def mult(x, y):
 def exp(x, y):
     return x ** y
 
-def neg(x):
-    return (-1) * x
-
-def sqrt(x):
-    return x ** (0.5)
-
-
-
-
-
-
-
 
 # TODO: Add definitions of sub(), div(), mult(), exp(), as well as neg() and sqrt().
 #       neg() should return the negation of the given number, and sqrt() should
@@ -33,11 +21,11 @@ def sqrt(x):
 
 
 def neg(x):
-    ... # fill here
+    return (-1) * x       # fill here
 
 
 def sqrt(x):
-    ... # fill here
+    return x ** (0.5)     # fill here
 
 # -------------------------------------- Task 2 -----------------------------------
 
